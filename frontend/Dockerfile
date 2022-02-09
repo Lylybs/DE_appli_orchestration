@@ -1,5 +1,5 @@
 FROM node:alpine
-WORKDIR "/DE_jenkins"
+WORKDIR "/DE_appli_orchestration/frontend"
 
 COPY package.json .
 RUN npm install
